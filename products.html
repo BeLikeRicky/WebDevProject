@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="shortcut icon" href="Photos/bbq.png" type="image/x-icon" />
+        <link rel="stylesheet" href="index.css" />
+        <title>Gerry Foreman Grills</title>
+        <script>
+            mybutton = document.getElementById("scrollToTopBtn");
+
+            function upFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </head>
+    <body>
+        <main>
+            <header>
+                <h1>Gerry Foreman Grills</h1>
+            </header>
+            <nav class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="column column-desktop-33 column-tablet-50">
+                        <img
+                            src="Photos/productimage1.jpg"
+                            alt="A picture of low-quality grill."
+                        />
+                        <p class="text-center">
+                            <a href="productpage1.html" class="btn">Buy</a>
+                        </p>
+                    </div>
+
+                    <div class="column column-desktop-33 column-tablet-50">
+                        <img
+                            src="Photos/productimage2.jpg"
+                            alt="A picture of medium-quality grill."
+                        />
+                        <p class="text-center">
+                            <a href="productpage2.html" class="btn">Buy</a>
+                        </p>
+                    </div>
+
+                    <div class="column column-desktop-33 column-tablet-50">
+                        <img
+                            src="Photos/productimage3.jpg"
+                            alt="A picture of high-quality grill."
+                        />
+                        <p class="text-center">
+                            <a href="productpage3.html" class="btn">Buy</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="backtotop">
+                <button onclick="upFunction()" id="scrollToTopBtn">☝️</button>
+            </div>
+        </main>
+
+        <footer>
+            <small
+                >Copyright &copy; 2021 Gerry Foreman Grills. All Rights
+                Reserved</small
+            >
+        </footer>
+    </body>
+</html>

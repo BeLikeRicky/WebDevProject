@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Photos/bbq.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <title>Gerry Foreman Grills</title>
+
+    <script>
+        mybutton = document.getElementById("scrollToTopBtn");
+    
+        function upFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+        </script>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Gerry Foreman Grills</h1>
+    </header>
+    <nav class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <img src="Photos/contactimage.jpg" alt="Picture of a happy inviting family.">
+    </div>
+    <br>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="first">First Name</label>
+          <input type="text" id="first" name="firstname" placeholder="Your name..">
+      
+          <label for="last">Last Name</label>
+          <input type="text" id="last" name="lastname" placeholder="Your last name..">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email..">
+      
+          
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <div class="backtotop">
+        <button onclick="upFunction()" id="scrollToTopBtn">☝️</button>
+    </div>
+
+
+   
+    
+</main>
+
+<footer>
+    <small>Copyright &copy; 2021 Gerry Foreman Grills. All Rights Reserved</small>
+</footer>
+    
+</body>
+</html>
